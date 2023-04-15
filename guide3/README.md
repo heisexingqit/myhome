@@ -1,4 +1,6 @@
-# VITS-fast-fine-tuning *
+# 指令笔记
+
+## VITS-fast-fine-tuning *
 
 > 文字   》》》 声音
 
@@ -6,7 +8,7 @@
 
 作者：[Plachtaa](https://github.com/Plachtaa)
 
-## 主要流程（Colab版）
+### 主要流程（Colab版）
 
 ```bash
 # STEP 1 复制代码库
@@ -84,7 +86,7 @@ python finetune_speaker_v2.py -m "./OUTPUT_MODEL" --max_epochs "{Maximum_epochs}
 
 止步于此，因此后面略....
 
-# so-vits-svc
+## so-vits-svc
 
 > 音乐   》》》 声音
 
@@ -115,9 +117,3 @@ python train.py -c configs/config.json -m 44k
 python inference_main.py -m "logs/44k/G_xx.pth" -c "configs/config.json" -n "aa.wav" -t 0 -s "ikaros"
 # 可加 -eh True，增强
 ```
-
-## V2问题：
-
-**NCCL：**
-
-![image-20230415174218533](D:\Typora_img\README\image-20230415174218533.png)

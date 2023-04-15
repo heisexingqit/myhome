@@ -1,6 +1,8 @@
-# NodeJS项目
+# 微小bug
 
-## npm install 安装注意
+## NodeJS项目
+
+### npm install 安装注意
 
 - 全局安装 加  `-g` ，**通常安装的是工具包，仅开发使用，例如CLI脚手架等...**
 
@@ -10,11 +12,11 @@
 
 - 还有一种 `-D`，这种其实是 `--save-dev` 的缩写，**意思就是写入package.json但是仅在开发版本中使用。**（例如生成***静态***页面，在运行时是***不需要***这些依赖的）
 
-## nrm镜像源控制工具bug
+### nrm镜像源控制工具bug
 
 编译问题，将 `cli` 文件中第9行的 `require` 换成 `import` 即可，是版本冲突问题，更新后还要**手动改**。
 
-## npm 运行程序 报错
+### npm 运行程序 报错
 
 通常是升级 `npm` 后，版本冲突导致
 
@@ -28,9 +30,9 @@ code: 'ERR_OSSL_EVP_UNSUPPORTED'
 
 <img src="https://md-pic-1300959784.cos.ap-nanjing.myqcloud.com/img/202304151640542.png" alt="image-20230415150248181" style="zoom: 67%;" />
 
-# Github使用
+## Github使用
 
-## 添加gitignore文件
+### 添加gitignore文件
 
 - 对于 `hexo` 博客，我们可以不用自己添加 `.gitignore` 文件，
 
