@@ -1,5 +1,10 @@
 module.exports = {
     lang: 'zh-CN',
+    head: [
+        [
+            { rel: 'icon', href: 'head.jpg' }
+        ]
+    ],
     title: "Heisexingqitian的主页",
     description: "轻便的指南手册",
     /**
