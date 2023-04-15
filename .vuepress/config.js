@@ -2,7 +2,7 @@ module.exports = {
     lang: 'zh-CN',
     head: [
         [
-            { rel: 'icon', href: 'head.jpg' }
+            { rel: 'icon', href: 'https://md-pic-1300959784.cos.ap-nanjing.myqcloud.com/img/my_head.jpg' }
         ]
     ],
     title: "Heisexingqitian的主页",
