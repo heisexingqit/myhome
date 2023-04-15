@@ -1,0 +1,20 @@
+{
+
+  "scripts": {
+
+    "dev": "vuepress dev",
+
+    "build": "vuepress build"
+
+  },
+
+  "dependencies": {
+
+    "vue-template-compiler": "^2.7.14",
+
+    "vuepress": "^1.9.9"
+
+  }
+
+}
+
