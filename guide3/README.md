@@ -1,7 +1,3 @@
----
-title: 指令笔记
----
-
 # VITS-fast-fine-tuning *
 
 > 文字   》》》 声音
@@ -120,3 +116,8 @@ python inference_main.py -m "logs/44k/G_xx.pth" -c "configs/config.json" -n "aa.
 # 可加 -eh True，增强
 ```
 
+## V2问题：
+
+**NCCL：**
+
+![image-20230415174218533](D:\Typora_img\README\image-20230415174218533.png)

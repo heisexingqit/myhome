@@ -1,7 +1,3 @@
----
-title: 小BUG
----
-
 # NodeJS项目
 
 ## npm install 安装注意
